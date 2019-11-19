@@ -17,15 +17,6 @@ The purpose of this project is to create a Python script to visualize the weathe
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-## Methods Used
-* API Requests 
-* Data Analysis 
-* Data Visualization
-
-## Technologies
-* Python (Pandas, Scikit-Learn, Tensorflow, Jupyter Notebook)
-
-
 Your final notebook must:
 
 * Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
@@ -33,30 +24,38 @@ Your final notebook must:
 * Include a print log of each city as it's being processed with the city number and city name.
 * Save both a CSV of all data retrieved and png images for each scatter plot.
 
-As final considerations:
+## Methods Used
+* API Requests 
+* Data Analysis 
+* Data Visualization
 
-* You must complete your analysis using a Jupyter notebook.
-* You must use the Matplotlib or Pandas plotting libraries.
-* You must include a written description of three observable trends based on the data.
-* You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
-* See [Example Solution](WeatherPy_Example.pdf) for a reference on expected format.
+## Technologies
+* Python (Pandas, Matplotlib, Numpy, Requests, Time, Jupyter Notebook)
 
-## Hints and Considerations
 
-* The city data is generated based on random coordinates; as such, your outputs will not be an exact match to the provided starter notebook.
+## Output 
 
-* You may want to start this assignment by refreshing yourself on the [geographic coordinate system](http://desktop.arcgis.com/en/arcmap/10.3/guide-books/map-projections/about-geographic-coordinate-systems.htm).
+####  * Visit the final notebook: [WeatherPy (API)](https://github.com/CarolineDelva/WeatherPy-APIPython-Project/blob/master/starter_code/WeatherPy.ipynb) 
 
-* Next, spend the requisite time necessary to study the OpenWeatherMap API. Based on your initial study, you should be able to answer  basic questions about the API: Where do you request the API key? Which Weather API in particular will you need? What URL endpoints does it expect? What JSON structure does it respond with? Before you write a line of code, you should be aiming to have a crystal clear understanding of your intended outcome.
+#### * Temperature (F) vs. Latitude
 
-* A starter code for Citipy has been provided. However, if you're craving an extra challenge, push yourself to learn how it works: [citipy Python library](https://pypi.python.org/pypi/citipy). Before you try to incorporate the library into your analysis, start by creating simple test cases outside your main script to confirm that you are using it correctly. Too often, when introduced to a new library, students get bogged down by the most minor of errors -- spending hours investigating their entire code -- when, in fact, a simple and focused test would have shown their basic utilization of the library was wrong from the start. Don't let this be you!
+![Equator](Images/citylatitudemaxtemp.PNG)
+#### * Humidity (%) vs. Latitude
 
-* Part of our expectation in this challenge is that you will use critical thinking skills to understand how and why we're recommending the tools we are. What is Citipy for? Why would you use it in conjunction with the OpenWeatherMap API? How would you do so?
+![Equator](Images/citylatitudehumidity.PNG)
 
-* In building your script, pay attention to the cities you are using in your query pool. Are you getting coverage of the full gamut of latitudes and longitudes? Or are you simply choosing 500 cities concentrated in one region of the world? Even if you were a geographic genius, simply rattling 500 cities based on your human selection would create a biased dataset. Be thinking of how you should counter this. (Hint: Consider the full range of latitudes).
+#### * Cloudiness (%) vs. Latitude
 
-* Lastly, remember -- this is a challenging activity. Push yourself! If you complete this task, then you can safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. Good luck!
+![Equator](Images/citylatitudecloudiness.PNG)
 
-## Copyright
+#### * Wind Speed (mph) vs. Latitude
 
-Data Boot Camp © 2018. All Rights Reserved.
+![Equator](Images/citylatitudewindspeed.PNG)
+
+
+## Conclusion 
+
+* As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth.
+* There is no strong relationship between latitude and cloudiness. However, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.
+* There is no strong relationship between latitude and wind speed. However, in northern hemispheres there is a flurry of cities with over 20 mph of wind.
+
