@@ -56,6 +56,17 @@ Final notebook includes:
 ![Equator](Images/citylatitudewindspeed.PNG)
 
 
+## Get Started
+
+
+1. Clone this repository (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. Collect the data from  [OpenWeatherMap API](https://openweathermap.org/api).
+
+3. Find the Python scripts in the [starter_code](https://github.com/CarolineDelva/WeatherPy-APIPython-Project/blob/master/starter_code/WeatherPy.ipynb) folder.
+
+4. Run the script for each model in their own [Jupyter Notebook](https://jupyter.org/).
+
+
 ## Conclusion 
 
 * As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth.
