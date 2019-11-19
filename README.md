@@ -17,12 +17,12 @@ The purpose of this project is to create a Python script to visualize the weathe
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-Your final notebook must:
+Final notebook includes:
 
-* Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
-* Perform a weather check on each of the cities using a series of successive API calls.
-* Include a print log of each city as it's being processed with the city number and city name.
-* Save both a CSV of all data retrieved and png images for each scatter plot.
+* Randomly selected 613 cities based on latitude and longitude.
+* A weather check on each of the cities using a series of successive API calls.
+* A print log of each city as they are being processed with the city number and the city name.
+* A CSV of the data retrieved and images for each scatter plot.
 
 ## Methods Used
 * API Requests 
@@ -62,3 +62,7 @@ Your final notebook must:
 * There is no strong relationship between latitude and cloudiness. However, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.
 * There is no strong relationship between latitude and wind speed. However, in northern hemispheres there is a flurry of cities with over 20 mph of wind.
 
+
+## Contact
+* [Visit my LinkedIn](https://www.linkedin.com/in/caroline-delva-5184a172/) 
+* [Visit my portfolio](https://carolinedelva.github.io/CarolineDelvaPortfolio/) 
