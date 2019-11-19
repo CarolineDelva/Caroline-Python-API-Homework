@@ -37,6 +37,9 @@ Your final notebook must:
 
 ####  * Visit the final notebook: [WeatherPy (API)](https://github.com/CarolineDelva/WeatherPy-APIPython-Project/blob/master/starter_code/WeatherPy.ipynb) 
 
+#### * Data Collection
+
+![Equator](Images/datacollection.PNG)
 #### * Temperature (F) vs. Latitude
 
 ![Equator](Images/citylatitudemaxtemp.PNG)
