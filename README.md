@@ -12,12 +12,19 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 
 The purpose of this project is to create a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. The script should make API request from the [OpenWeatherMap API](https://openweathermap.org/api) to collect the data and create scatter plots to showcase the following relationships: 
 
-Your objective is to build a series of scatter plots to showcase the following relationships:
-
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
+
+## Methods Used
+* API Requests 
+* Data Analysis 
+* Data Visualization
+
+## Technologies
+* Python (Pandas, Scikit-Learn, Tensorflow, Jupyter Notebook)
+
 
 Your final notebook must:
 
